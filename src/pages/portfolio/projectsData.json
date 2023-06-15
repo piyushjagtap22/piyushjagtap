@@ -8,15 +8,5 @@
     "deployed": "https://piyushjagtap.tech/devconnector",
     "bgcolor": "#f37737",
     "id": "1"
-  },
-  {
-    "title": "Heatmap",
-    "image": "./projectImages/weather.png",
-    "technologies": "jQuery | HTML | CSS",
-    "description": "",
-    "github": "",
-    "deployed": "https://piyushjagtap.tech/heatmap/",
-    "bgcolor": "#29cbe0",
-    "id": "2"
   }
 ]
