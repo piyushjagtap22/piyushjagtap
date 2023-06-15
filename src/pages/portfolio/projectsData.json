@@ -5,7 +5,7 @@
     "description": "Meeting point for developer to discuss and connect",
     "technologies": "ReactJS | NodeJS | MongoDB",
     "github": "https://github.com/piyushjagtap22/DevConnector_React_Frontend",
-    "deployed": "https://piyushjagtap.tech/devconnector",
+    "deployed": "https://dev-connector-react-frontend.vercel.app/",
     "bgcolor": "#f37737",
     "id": "1"
   }
