@@ -8,5 +8,15 @@
     "deployed": "https://dev-connector-react-frontend.vercel.app/",
     "bgcolor": "#f37737",
     "id": "1"
+  },
+  {
+    "title": "Global Drone Heatmap",
+    "image": "./projectImages/drone-heatmap.png",
+    "description": "Heatmap of PX4 drones",
+    "technologies": "HTML | CSS | Mapbox",
+    "github": "https://github.com/piyushjagtap22/Global-Drone-Heatmap",
+    "deployed": "https://piyushjagtap22.github.io/Global-Drone-Heatmap/",
+    "bgcolor": "#5b7c99",
+    "id": "2"
   }
 ]
