@@ -18,5 +18,15 @@
     "deployed": "https://piyushjagtap22.github.io/Global-Drone-Heatmap/",
     "bgcolor": "#5b7c99",
     "id": "2"
+  },
+  {
+    "title": "Text Utils",
+    "image": "./projectImages/text-utils.png",
+    "description": "Text utility app to modify your text as per requirements.",
+    "technologies": "ReactJS | HTML | CSS",
+    "github": "https://github.com/piyushjagtap22/Text-Utils",
+    "deployed": "https://piyushjagtap22.github.io/Text-Utils/",
+    "bgcolor": "#FFFF00",
+    "id": "3"
   }
 ]
