@@ -14,8 +14,8 @@
     "image": "./projectImages/NewsDog.png",
     "description": "News Dog - Daily dose of News and Barks",
     "technologies": "React | BootStrap | Javascript",
-    "github": "https://github.com/piyushjagtap22/Global-Drone-Heatmap",
-    "deployed": "https://piyushjagtap22.github.io/Global-Drone-Heatmap/",
+    "github": "https://github.com/piyushjagtap22/NewsApp",
+    "deployed": "https://news-app-two-drab.vercel.app/",
     "bgcolor": "#FF007F",
     "id": "2"
   },
