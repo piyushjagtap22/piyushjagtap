@@ -15,6 +15,20 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
     visible: { x: 0, opacity: 1 },
   };
 
+  const formatTechList = (technologies) => {
+    const techArray = technologies.split("|");
+    const chunkSize = 4;
+    const techChunks = [];
+
+    for (let i = 0; i < techArray.length; i += chunkSize) {
+      techChunks.push(techArray.slice(i, i + chunkSize));
+    }
+
+    return techChunks.map((chunk, index) => (
+      <p className="tech"> <em key={index}>{chunk.join("|")}</em></p>
+    ));
+  };
+
   Modal.setAppElement("#root");
 
   const [showModal, setShowModal] = useState(false);
@@ -32,13 +46,11 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
     >
       <div
         style={{ backgroundColor: color }}
-        className="projectCard d-flex align-items-center justify-content-center p-5"
+        className="projectCard d-flex align-items-center justify-content-center p-5 mb-5"
         onClick={handleOpenModal}
       >
         <div className="textWrap col-6 d-flex flex-column justify-content-center align-items-center m-5">
-          <p className="tech">
-            <em>{technologies}</em>
-          </p>
+          {formatTechList(technologies)}
           <h3 className="projectTitle">{title}</h3>
           <span className="viewWork">View Work &#8594;</span>
         </div>
