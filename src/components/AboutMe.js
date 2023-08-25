@@ -6,10 +6,9 @@ import resume from "../pages/about/Piyush_Jagtap_Resume.pdf";
 import image from "../pages/about/Piyush.jpeg"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from '@material-ui/icons/Work';
-import SchoolIcon from '@material-ui/icons/School';
-import StarIcon from '@material-ui/icons/Star';
-import BornIcon from '@mui/icons-material/ChildFriendly';
+import WorkIcon from '../pages/about/work_black_24dp.svg';
+import SchoolIcon from '../pages/about/school_black_24dp.svg';
+import BornIcon from '../pages/about/child_friendly_black_24dp.svg';
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
