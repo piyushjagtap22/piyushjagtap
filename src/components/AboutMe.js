@@ -6,9 +6,6 @@ import resume from "../pages/about/Piyush_Jagtap_Resume.pdf";
 import image from "../pages/about/Piyush.jpeg"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import WorkIcon from '../pages/about/work_black_24dp.svg';
-import SchoolIcon from '../pages/about/school_black_24dp.svg';
-import BornIcon from '../pages/about/child_friendly_black_24dp.svg';
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -108,9 +105,13 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="July 2021 - present"
             iconStyle={{ background: '#009e66', color: '#fff' }}
-            icon={<WorkIcon />}
-
+            //workIcon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(0, 158, 102)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="WorkIcon"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"></path></svg></span>}
           >
+
+
+
+
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Systems Engineer</h3>
               <h4 className="vertical-timeline-element-subtitle">Tata Consultance Services, Pune</h4>
@@ -143,7 +144,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="June 2021"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Bachelor of Technology</h3>
@@ -178,8 +180,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="Jan 2020 - Jun 2020"
             iconStyle={{ background: '#009e66', color: '#fff' }}
-            icon={<WorkIcon />}
-
+            //Work Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(0, 158, 102)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="WorkIcon"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Software Developement Intern</h3>
@@ -215,7 +217,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentArrowStyle={{ borderRight: '7px solid  #fff' }}
             date="Feb 2019 - Apr 2019"
             iconStyle={{ background: '#009e66', color: '#fff' }}
-            icon={<WorkIcon />}
+            //workIcon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(0, 158, 102)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="WorkIcon"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"></path></svg></span>}
 
           >
             <div style={{ color: "#000" }}>
@@ -234,7 +237,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="Aug 2017"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Bachelor of Technology</h3>
@@ -250,7 +254,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="May 2016 - July 2017"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Preparation Drop</h3>
 
@@ -261,7 +266,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2015 - 2016"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Higher Secondary School Education</h3>
@@ -277,7 +283,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2013 - 2014"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Secondary School Education</h3>
@@ -292,7 +299,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2013 - 2014"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">9 Standard</h3>
@@ -306,7 +314,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2010 - 2012"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">7-8 Standard</h3>
@@ -320,7 +329,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2007 - 2010"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">4-6 Standard</h3>
@@ -334,7 +344,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2005 - 2007"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">2 - 3 Standard</h3>
@@ -348,7 +359,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2004 - 2005"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">1 Standard</h3>
@@ -362,7 +374,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="2003 - 2004"
             iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-            icon={<SchoolIcon />}
+            //School Icon
+            icon={<span class="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SchoolIcon"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">LKG - UKG</h3>
@@ -376,7 +389,8 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
             contentStyle={{ background: '#fff', color: '#009e66' }}
             date="22 December - 1997"
             iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-            icon={<BornIcon />}
+            //Born Icon
+            icon={<span className="vertical-timeline-element-icon bounce-in" style={{ background: 'rgb(233, 30, 99)', color: 'rgb(255, 255, 255)' }}><svg className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ChildFriendlyIcon"><path d="M13 2v8h8c0-4.42-3.58-8-8-8zm6.32 13.89C20.37 14.54 21 12.84 21 11H6.44l-.95-2H2v2h2.22s1.89 4.07 2.12 4.42c-1.1.59-1.84 1.75-1.84 3.08C4.5 20.43 6.07 22 8 22c1.76 0 3.22-1.3 3.46-3h2.08c.24 1.7 1.7 3 3.46 3 1.93 0 3.5-1.57 3.5-3.5 0-1.04-.46-1.97-1.18-2.61zM8 20c-.83 0-1.5-.67-1.5-1.5S7.17 17 8 17s1.5.67 1.5 1.5S8.83 20 8 20zm9 0c-.83 0-1.5-.67-1.5-1.5S16.17 17 17 17s1.5.67 1.5 1.5S17.83 20 17 20z"></path></svg></span>}
           >
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Born</h3>
