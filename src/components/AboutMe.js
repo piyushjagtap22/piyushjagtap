@@ -3,7 +3,7 @@ import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/Piyush_Jagtap_Resume.pdf";
-import image from "../pages/about/Piyush0.jpeg"
+import image from "../pages/about/PJ-3.png"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
