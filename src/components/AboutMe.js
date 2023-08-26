@@ -61,6 +61,11 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <div className="contentDescription">
                 <p>{brand}</p>
               </div>
+              <br></br>
+              <h5>Skill Sets:</h5>
+              <div className="contentDescription">
+                <p>Javascript, Python, SQL, ReactJS, NodeJS, Flask, MongoDB, Firebase, IOT, OpenCV, Git, Twilio, AWS, etc</p>
+              </div>
               <div className="infoContainer">
                 <div className="row">
                   <div className="col-12 col-md-6 info">
