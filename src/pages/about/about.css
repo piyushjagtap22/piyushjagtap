@@ -12,16 +12,18 @@
 }
 
 .personalImage {
+  height: 330px;
+
   display: flex;
+  align-items: center;
   justify-content: center;
-  margin-bottom: var(--spacing);
 }
 
 .personalImage img {
-  height: 250px;
+  height: 330px;
   z-index: 50;
-  border-radius: 250px;
-  border: 1px solid var(--grey);
+  border-radius: 0;
+  padding: 6px;
 }
 
 .contentContainer {
@@ -105,22 +107,3 @@
     margin-right: 10px;
   }
 }
-
-@media (min-width: 992px) {
-  .personalImage img {
-    height: 330px;
-    z-index: 50;
-    border-radius: 0;
-    padding: 6px;
-  }
-
-  .personalImage {
-    height: 330px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-

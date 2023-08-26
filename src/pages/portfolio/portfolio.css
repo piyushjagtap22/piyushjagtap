@@ -53,6 +53,7 @@
 .projectTitle {
   font-size: 24px;
   padding: 10px 0;
+  text-align: center;
 }
 
 .githubLink {
@@ -138,6 +139,7 @@
   .projectTitle {
     font-size: 30px;
     padding: 10px 0;
+    text-align: center;
   }
 
   .viewWork {

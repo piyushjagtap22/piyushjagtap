@@ -17,7 +17,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
 
   const formatTechList = (technologies) => {
     const techArray = technologies.split("|");
-    const chunkSize = 4;
+    const chunkSize = 3;
     const techChunks = [];
 
     for (let i = 0; i < techArray.length; i += chunkSize) {
@@ -51,7 +51,7 @@ const Project = ({ technologies, title, image, color, id, github, deployed, desc
       >
         <div className="textWrap col-6 d-flex flex-column justify-content-center align-items-center m-5">
           {formatTechList(technologies)}
-          <h3 className="projectTitle">{title}</h3>
+          <h3 className="projectTitle text-center">{title}</h3>
           <span className="viewWork">View Work &#8594;</span>
         </div>
         <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
