@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/piyushjagtap/static/css/main.01c0d025.css",
+    "main.js": "/piyushjagtap/static/js/main.1eb7c95f.js",
+    "static/media/Piyush_Jagtap_Resume.pdf": "/piyushjagtap/static/media/Piyush_Jagtap_Resume.53d5b9184456209dfac0.pdf",
+    "static/media/PJ-3.png": "/piyushjagtap/static/media/PJ-3.31109f816933e18f7336.png",
+    "index.html": "/piyushjagtap/index.html",
+    "static/media/close.svg": "/piyushjagtap/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
+    "static/media/open.svg": "/piyushjagtap/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
+    "main.01c0d025.css.map": "/piyushjagtap/static/css/main.01c0d025.css.map",
+    "main.1eb7c95f.js.map": "/piyushjagtap/static/js/main.1eb7c95f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01c0d025.css",
+    "static/js/main.1eb7c95f.js"
+  ]
+}
