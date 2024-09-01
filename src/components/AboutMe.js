@@ -122,7 +122,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <h4 className="vertical-timeline-element-subtitle">Tata Consultance Services, Pune</h4>
 
               <p><strong>Vertical: </strong>Banking, financial services and insurance (BFSI)</p>
-              <p><strong>Duration:</strong> 2+ years</p>
+              <p><strong>Duration:</strong> 3+ years</p>
 
               <p>Collaborated with a prominent USA-based client, contributing to software development and growth initiatives.</p>
               <br></br>
