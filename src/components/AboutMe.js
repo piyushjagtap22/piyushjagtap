@@ -70,7 +70,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                 <div className="row">
                   <div className="col-12 col-md-6 info">
                     <span>Name:</span>
-                    <p>Piyush Jagtap</p>
+                    <p><h1 Piyush Jagtap></h1></p>
                   </div>
                   <div className="col-12 col-md-6 info">
                     <span>Email:</span>
@@ -119,7 +119,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
 
             <div style={{ color: "#000" }}>
               <h3 style={{ color: "#009e66" }} className="vertical-timeline-element-title">Systems Engineer</h3>
-              <h4 className="vertical-timeline-element-subtitle">Tata Consultance Services, Pune</h4>
+              <h4 className="vertical-timeline-element-subtitle">Tata Consultance Services, Bengaluru</h4>
 
               <p><strong>Vertical: </strong>Banking, financial services and insurance (BFSI)</p>
               <p><strong>Duration:</strong> 3+ years</p>

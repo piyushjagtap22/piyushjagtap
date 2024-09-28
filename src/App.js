@@ -4,7 +4,7 @@ import AnimatedRoutes from "./components/AnimatedRoutes";
 function App() {
   const personalDetails = {
     name: "Piyush Jagtap",
-    location: "Pune, INDIA",
+    location: "Bengaluru, INDIA",
     email: "piyushjagtapyes@gmail.com",
     availability: "Open for work",
     brand:
